@@ -7,11 +7,9 @@ public class MotorDemo {
     motor.nyalakanMesin();
     motor.printStatus();
 
-    motor.tambahKecepatan();
-    motor.printStatus();
-
-    motor.tambahKecepatan();
-    motor.printStatus();
+    for (int i = 0; i < 22; i++) {
+      motor.tambahKecepatan();
+    }
 
     motor.matikanMesin();
     motor.printStatus();
